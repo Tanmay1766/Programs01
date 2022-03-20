@@ -1,0 +1,12 @@
+import numpy as np
+x = np.array([3,5])
+y = np.array([2,5])
+print("Original Numbers:")
+print(x)
+print(y)
+print("Comparison = greater")
+print(np.greater(x,y))
+print("Comparison = greater weual")
+print(np.greater_equal(x,y))
+print("Comaprison = less")
+print("")
